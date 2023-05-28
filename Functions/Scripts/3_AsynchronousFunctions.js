@@ -1,3 +1,4 @@
+function RunAsynchronousFunctions(){
 console.log('\r\n',"-".repeat(20),'\r\nAsynchronousFunctions:');
 
 // setTimeout вызывает функцию один раз через указанное время в мс
@@ -21,3 +22,4 @@ setTimeout(() => {
     // удалить интервал
     clearInterval(idI);
 }, 2000);
+}

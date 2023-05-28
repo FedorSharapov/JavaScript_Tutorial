@@ -1,4 +1,4 @@
-{
+function RunEnumerationOfArrays(){
     console.log('\r\n',"-".repeat(20),'\r\nEnumerationOfArrays:');
 
     // массив

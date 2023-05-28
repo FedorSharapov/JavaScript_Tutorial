@@ -1,4 +1,5 @@
-console.log('\r\n',"-".repeat(20),'\r\nAddDeleteProperties:');
+function RunAddDeleteProperties(){
+    console.log('\r\n',"-".repeat(20),'\r\nAddDeleteProperties:');
 
 let block = { width: 150};
 
@@ -20,3 +21,4 @@ delete block.color;
 const heightB = 'height';
 delete block[heightB];
 console.log(block);
+}

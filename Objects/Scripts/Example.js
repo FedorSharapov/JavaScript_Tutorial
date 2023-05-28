@@ -1,3 +1,4 @@
+function RunExample(){
 console.log('\r\n',"-".repeat(20),'\r\nExampleDelete:');
 
 // Пример1
@@ -28,3 +29,4 @@ let person ={
 let {firstName, years: age, heightE = null} = person;
 
 console.log(firstName,age,heightE);
+}

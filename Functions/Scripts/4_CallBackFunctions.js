@@ -1,3 +1,4 @@
+function RunCallBackFunctions(){
 console.log('\r\n',"-".repeat(20),'\r\nCallBackFunctions:');
 
 // имитируем запрос 
@@ -26,3 +27,4 @@ request(handler);
 request((data)=>{
     console.log('anonimHandler',data);
 });
+}

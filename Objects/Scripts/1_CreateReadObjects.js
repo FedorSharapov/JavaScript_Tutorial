@@ -1,4 +1,5 @@
-console.log('\r\n',"-".repeat(20),'\r\nCreateReadObjects:');
+function RunCreateReadObjects(){
+    console.log('\r\n',"-".repeat(20),'\r\nCreateReadObjects:');
 
 // создание объекта
 const auto = {
@@ -13,3 +14,4 @@ const model = auto['model'];
 const color = auto.color;
 
 console.log(model,color);
+}

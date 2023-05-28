@@ -1,3 +1,4 @@
+function RunPromise(){
 console.log('\r\n',"-".repeat(20),'\r\nPromise:');
 
 const requestPromise = new Promise((resolve, reject) => {
@@ -25,3 +26,4 @@ requestPromise.then(
     (status)=>{
         console.log('reject', status);
 });
+}

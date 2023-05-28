@@ -1,4 +1,5 @@
-console.log('\r\n',"-".repeat(20),'\r\nCopyObject:');
+function RunCopyObject(){
+    console.log('\r\n',"-".repeat(20),'\r\nCopyObject:');
 
 // объявление объекта
 let obj ={
@@ -47,3 +48,4 @@ storeGood.number = 2000;    // изменяем свойство оригина�
 
 console.log('storeGood',storeGood);
 console.log('shopGood',shopGood);
+}

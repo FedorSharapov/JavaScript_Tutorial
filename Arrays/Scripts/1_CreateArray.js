@@ -1,4 +1,4 @@
-{
+function RunCreateArray(){
     console.log('\r\n',"-".repeat(20),'\r\nCreateArray:');
 
     // массив ссылочный тип!

@@ -1,11 +1,21 @@
-// предупреждение
-alert('Hello world!');
+function RunDialogWindows(){
+    // предупреждение
+    alert('Hello world!');
 
-// запрос данных от пользователя
-let userName = prompt('Enter yor name:');
-// отмена - null
+    PromptName();
 
-// подтверждение
-let isAdult = confirm('Are you over 18 years old?');
-// да - true
-// отмена - false
+    ConfirmAge();
+}
+
+function PromptName(){
+    // запрос данных от пользователя
+    return prompt('Enter yor name:');
+    // отмена - null
+}
+
+function ConfirmAge(){
+    // подтверждение
+    return confirm('Are you over 18 years old?');
+    // да - true
+    // отмена - false
+}

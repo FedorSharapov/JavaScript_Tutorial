@@ -1,3 +1,4 @@
+function RunContextFunction(){
 console.log('\r\n',"-".repeat(20),'\r\nContextFunction:');
 
 // использование контекста свойств объекта с помощью this.
@@ -58,4 +59,4 @@ console.log('result =', sum.apply(obj, [10,4]));
 // bind можно изменить контекст не вызывая функцию
 const func = sum.bind(obj);
 console.log('result =', func(5,2));
-
+}

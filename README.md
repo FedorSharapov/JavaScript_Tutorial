@@ -1,2 +1,2 @@
-# JavaScript_Tutorial
+# JavaScript_Notes
 конспект изучения JavaScript

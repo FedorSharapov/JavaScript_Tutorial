@@ -1,4 +1,4 @@
-{
+function RunAddDeleteElementsToArray(){
     console.log('\r\n',"-".repeat(20),'\r\nAddDeleteElementsToArray:');
 
     // массив

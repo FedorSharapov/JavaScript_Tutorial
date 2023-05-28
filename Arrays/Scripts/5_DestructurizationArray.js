@@ -1,4 +1,4 @@
-{
+function RunDestructurizationArray(){
     console.log('\r\n',"-".repeat(20),'\r\nDestructurizationArray:');
 
     // массив

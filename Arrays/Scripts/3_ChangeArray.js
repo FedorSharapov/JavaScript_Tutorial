@@ -1,4 +1,4 @@
-{
+function RunChangeArray(){
     console.log('\r\n',"-".repeat(20),'\r\nChangeArray:');
 
     // объединить массивы

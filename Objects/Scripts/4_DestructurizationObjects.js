@@ -1,3 +1,4 @@
+function RunDestructurizationObjects(){
 console.log('\r\n',"-".repeat(20),'\r\nDestructurizationObjects:');
 
 // объект
@@ -55,3 +56,4 @@ let {
 
 console.log('valueC',valueC);
 console.log('unit',unit);
+}
